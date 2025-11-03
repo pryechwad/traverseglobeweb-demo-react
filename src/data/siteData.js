@@ -406,7 +406,7 @@ export const srilankaPackages = [
     nights: '4N/5D',
     strikePrice: 35599,
     price: 31599,
-    image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg',
   },
   {
     id: 41,
@@ -414,7 +414,7 @@ export const srilankaPackages = [
     nights: '4N/5D',
     strikePrice: 38599,
     price: 36599,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2403209/pexels-photo-2403209.jpeg',
   },
   {
     id: 42,
@@ -422,7 +422,7 @@ export const srilankaPackages = [
     nights: '4N/5D',
     strikePrice: 52599,
     price: 49599,
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/5725103/pexels-photo-5725103.jpeg',
   },
   {
     id: 43,
@@ -430,7 +430,7 @@ export const srilankaPackages = [
     nights: '4N/5D',
     strikePrice: 37999,
     price: 32999,
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/321542/pexels-photo-321542.jpeg',
   },
   {
     id: 44,
