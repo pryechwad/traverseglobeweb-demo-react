@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { srilankaPackages } from '../data/siteData';
+import { srilankaPackages, srilankaBanners } from '../data/siteData';
 import PackageCard from '../components/PackageCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -16,15 +16,10 @@ export default function SriLankaPackages() {
     <div className="min-h-screen pt-20 pb-10">
       {/* Hero slider */}
       <HeroSlider
-        images={[
-          'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=80',
-        ]}
+        images={srilankaBanners}
         className="mt-0"
       >
-        <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow">Sri Lanka Holiday Packages</h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow text-white">Sri Lanka Holiday Packages</h1>
         <p className="text-white/90 mt-3">Explore Kandy, Nuwara Eliya, Yala & Colombo - 4N/5D Tours</p>
         <div className="max-w-3xl mx-auto mt-5">
           <form
