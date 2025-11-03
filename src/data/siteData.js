@@ -686,8 +686,8 @@ export const laosPackages = [
   },
   {
     id: 79,
-    title: 'Laos Ultimate Journey - Complete Indochina (8N/9D)',
-    nights: '8N/9D',
+    title: '3-Star Laos Ultimate Journey - Complete Indochina (6N/7D)',
+    nights: '6N/7D',
     strikePrice: 117420,
     price: 111420,
     image: 'https://images.pexels.com/photos/1385474/pexels-photo-1385474.jpeg',
@@ -710,23 +710,23 @@ export const laosPackages = [
   },
   {
     id: 82,
-    title: 'Laos Nature Explorer - Waterfalls & Caves (5N/6D)',
-    nights: '5N/6D',
+    title: '3-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
+    nights: '7N/8D',
     strikePrice: 143199,
     price: 140199,
     image: 'https://images.pexels.com/photos/9718010/pexels-photo-9718010.jpeg',
   },
   {
     id: 83,
-    title: 'Laos Premium Heritage - Luxury Temples Tour (6N/7D)',
-    nights: '6N/7D',
+    title: '4-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
+    nights: '7N/8D',
     strikePrice: 149999,
     price: 145999,
     image: 'https://images.pexels.com/photos/11067407/pexels-photo-11067407.jpeg',
   },
   {
     id: 84,
-    title: 'Laos Mekong Discovery - River & Islands (7N/8D)',
+    title: '5-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
     nights: '7N/8D',
     strikePrice: 163999,
     price: 158999,
@@ -1637,9 +1637,9 @@ export const packageDetails = {
     ],
   },
   82: {
-    name: 'Laos Nature Explorer - Waterfalls & Caves (5N/6D)',
-    priceHTML: '&#8377;37,999',
-    destination: 'Luang Prabang, Vang Vieng, Pakse - Laos',
+    name: '3-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
+    priceHTML: '&#8377;140,199',
+    destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     images: [
       'https://plus.unsplash.com/premium_photo-1694475495121-cf6b8e57f219?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
       'https://images.unsplash.com/photo-1712455498779-2a82e9d4b41a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
@@ -1648,9 +1648,9 @@ export const packageDetails = {
     ],
   },
   83: {
-    name: 'Laos Premium Heritage - Luxury Temples Tour (6N/7D)',
-    priceHTML: '&#8377;55,999',
-    destination: 'Vientiane, Luang Prabang, Champasak - Laos',
+    name: '4-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
+    priceHTML: '&#8377;145,999',
+    destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     images: [
       'https://images.unsplash.com/photo-1552058185-b7e8f6744229?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
       'https://images.unsplash.com/photo-1626374222999-a853af7640d3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
@@ -1659,9 +1659,9 @@ export const packageDetails = {
     ],
   },
   84: {
-    name: 'Laos Mekong Discovery - River & Islands (7N/8D)',
-    priceHTML: '&#8377;48,999',
-    destination: 'Luang Prabang, Pakse, Champasak, 4000 Islands - Laos',
+    name: '5-Star 8-Day Laos Heritage & Nature Discovery (7N/8D)',
+    priceHTML: '&#8377;158,999',
+    destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     images: [
       'https://images.unsplash.com/photo-1558220168-42cbb39df876?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
       'https://media.istockphoto.com/id/1473427033/photo/aerial-view-of-luang-prabang-town-and-mekong-river.jpg?s=612x612&w=0&k=20&c=kJiCuy_RO-IzhevTi7nOGRX5rLex9m6QJV5QdTo_gI8=',
@@ -1675,7 +1675,7 @@ export const packageDetails = {
     priceHTML: '&#8377;42,999',
     destination: 'Vientiane, Vang Vieng, Luang Prabang - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Vientiane – Buddha Park: Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
+      'Day 1': 'Arrival in Vientiane – Buddha Park (No Meal): Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
       'Day 2': 'Vientiane City Tour – Vang Vieng (B): Explore Vientiane\'s highlights: That Luang Stupa, Patuxai Monument, Wat Sisaket, and Wat Phra Keo. In the afternoon, take the express train to Vang Vieng and transfer to your hotel. Overnight in Vang Vieng.',
       'Day 3': 'Vang Vieng Adventure (B): Discover Tham Jang and Tham Nangfa (Angel Cave), known for their stunning formations. Optional zipline over the area (USD 19). Relax at Blue Lagoon 3 before enjoying a scenic boat ride on the Nam Song River at sunset. Overnight in Vang Vieng.',
       'Day 4': 'Vang Vieng – Luang Prabang (B): Take a morning train to Luang Prabang. Visit the Royal Palace Museum, Wat Mai, Wat Sene, and the iconic Wat Xiengthong. Enjoy sunset views from Mount Phousi and explore the Night Market. Overnight in Luang Prabang.',
@@ -1695,7 +1695,7 @@ export const packageDetails = {
     priceHTML: '&#8377;52,999',
     destination: 'Vientiane, Vang Vieng, Luang Prabang - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Vientiane – Buddha Park: Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
+      'Day 1': 'Arrival in Vientiane – Buddha Park (No Meal): Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
       'Day 2': 'Vientiane City Tour – Vang Vieng (B): Explore Vientiane\'s highlights: That Luang Stupa, Patuxai Monument, Wat Sisaket, and Wat Phra Keo. In the afternoon, take the express train to Vang Vieng and transfer to your hotel. Overnight in Vang Vieng.',
       'Day 3': 'Vang Vieng Adventure (B): Discover Tham Jang and Tham Nangfa (Angel Cave), known for their stunning formations. Optional zipline over the area (USD 19). Relax at Blue Lagoon 3 before enjoying a scenic boat ride on the Nam Song River at sunset. Overnight in Vang Vieng.',
       'Day 4': 'Vang Vieng – Luang Prabang (B): Take a morning train to Luang Prabang. Visit the Royal Palace Museum, Wat Mai, Wat Sene, and the iconic Wat Xiengthong. Enjoy sunset views from Mount Phousi and explore the Night Market. Overnight in Luang Prabang.',
@@ -1715,7 +1715,7 @@ export const packageDetails = {
     priceHTML: '&#8377;64,999',
     destination: 'Vientiane, Vang Vieng, Luang Prabang - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Vientiane – Buddha Park: Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
+      'Day 1': 'Arrival in Vientiane – Buddha Park (No Meal): Arrive at Wattay International Airport and transfer to your hotel. In the afternoon, visit the fascinating Buddha Park (Xieng Khuan), home to over 200 Buddhist and Hindu sculptures. End the day with a relaxing stroll along the Mekong River at sunset. Overnight in Vientiane.',
       'Day 2': 'Vientiane City Tour – Vang Vieng (B): Explore Vientiane\'s highlights: That Luang Stupa, Patuxai Monument, Wat Sisaket, and Wat Phra Keo. In the afternoon, take the express train to Vang Vieng and transfer to your hotel. Overnight in Vang Vieng.',
       'Day 3': 'Vang Vieng Adventure (B): Discover Tham Jang and Tham Nangfa (Angel Cave), known for their stunning formations. Optional zipline over the area (USD 19). Relax at Blue Lagoon 3 before enjoying a scenic boat ride on the Nam Song River at sunset. Overnight in Vang Vieng.',
       'Day 4': 'Vang Vieng – Luang Prabang (B): Take a morning train to Luang Prabang. Visit the Royal Palace Museum, Wat Mai, Wat Sene, and the iconic Wat Xiengthong. Enjoy sunset views from Mount Phousi and explore the Night Market. Overnight in Luang Prabang.',
@@ -1732,18 +1732,18 @@ export const packageDetails = {
   },
   // 8-Day Laos Heritage & Nature Discovery (88-90)
   88: {
-    name: '3-Star Laos Heritage & Nature Discovery (7N/8D)',
+    name: '3-Star Laos Heritage & Nature Discovery (8N/9D)',
     priceHTML: '&#8377;58,999',
     destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere. In the evening, participate in a private Baci Ceremony at a local home. Overnight in Luang Prabang.',
-      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and Wat Xiengthong. Continue to Heuan Chan Heritage House, followed by coffee tasting. Enjoy sunset views from Wat Prabath before browsing the Night Market. Overnight in Luang Prabang.',
-      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall. Visit Ban Thapene Village, Bear Rescue Center, and Ock Pop Tok Living Craft Center. Optional: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
-      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages. Take a refreshing dip at Tad Yeung Waterfall. Overnight on the Bolaven Plateau.',
-      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover ethnic markets and minority villages before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region. Overnight on Khong Island.',
-      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone. Explore old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
-      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End with sunset views from Wat Phou Salao. Overnight in Pakse.',
-      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via Chongmek Border for your flight to Bangkok or onward destination.'
+      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city famed for its timeless charm and cultural treasures. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere of the old town. In the evening, participate in a private Baci Ceremony at a local home — a heartfelt Lao ritual of welcome and good fortune. Overnight in Luang Prabang.',
+      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves, filled with thousands of Buddha images. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and the elegant Wat Xiengthong. Continue to Heuan Chan Heritage House for a glimpse into aristocratic Lao life, followed by a coffee or tea tasting. Enjoy sunset views from Wat Prabath before browsing the vibrant Night Market. Overnight in Luang Prabang.',
+      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the bustling local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall, a spectacular three-tier cascade with turquoise pools perfect for swimming. Visit nearby Ban Thapene Village, the Bear Rescue Center, and the Ock Pop Tok Living Craft Center. Optional stops: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
+      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages known for knife forging and bamboo weaving. Take a refreshing dip at Tad Yeung Waterfall before settling into your mountain retreat. Overnight on the Bolaven Plateau.',
+      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover the ethnic markets and minority villages of the Plateau before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region and enjoy the rest of the day at leisure. Overnight on Khong Island.',
+      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone, once a French colonial outpost. Explore the old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
+      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to the mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End the day with sweeping sunset views from Wat Phou Salao. Overnight in Pakse.',
+      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via the Chongmek Border for your flight to Bangkok or onward destination. Transfer time: approx. 3 hours.'
     },
     images: [
       'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
@@ -1753,18 +1753,18 @@ export const packageDetails = {
     ],
   },
   89: {
-    name: '4-Star Laos Heritage & Nature Discovery (7N/8D)',
+    name: '4-Star Laos Heritage & Nature Discovery (8N/9D)',
     priceHTML: '&#8377;72,999',
     destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere. In the evening, participate in a private Baci Ceremony at a local home. Overnight in Luang Prabang.',
-      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and Wat Xiengthong. Continue to Heuan Chan Heritage House, followed by coffee tasting. Enjoy sunset views from Wat Prabath before browsing the Night Market. Overnight in Luang Prabang.',
-      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall. Visit Ban Thapene Village, Bear Rescue Center, and Ock Pop Tok Living Craft Center. Optional: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
-      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages. Take a refreshing dip at Tad Yeung Waterfall. Overnight on the Bolaven Plateau.',
-      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover ethnic markets and minority villages before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region. Overnight on Khong Island.',
-      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone. Explore old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
-      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End with sunset views from Wat Phou Salao. Overnight in Pakse.',
-      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via Chongmek Border for your flight to Bangkok or onward destination.'
+      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city famed for its timeless charm and cultural treasures. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere of the old town. In the evening, participate in a private Baci Ceremony at a local home — a heartfelt Lao ritual of welcome and good fortune. Overnight in Luang Prabang.',
+      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves, filled with thousands of Buddha images. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and the elegant Wat Xiengthong. Continue to Heuan Chan Heritage House for a glimpse into aristocratic Lao life, followed by a coffee or tea tasting. Enjoy sunset views from Wat Prabath before browsing the vibrant Night Market. Overnight in Luang Prabang.',
+      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the bustling local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall, a spectacular three-tier cascade with turquoise pools perfect for swimming. Visit nearby Ban Thapene Village, the Bear Rescue Center, and the Ock Pop Tok Living Craft Center. Optional stops: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
+      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages known for knife forging and bamboo weaving. Take a refreshing dip at Tad Yeung Waterfall before settling into your mountain retreat. Overnight on the Bolaven Plateau.',
+      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover the ethnic markets and minority villages of the Plateau before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region and enjoy the rest of the day at leisure. Overnight on Khong Island.',
+      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone, once a French colonial outpost. Explore the old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
+      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to the mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End the day with sweeping sunset views from Wat Phou Salao. Overnight in Pakse.',
+      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via the Chongmek Border for your flight to Bangkok or onward destination. Transfer time: approx. 3 hours.'
     },
     images: [
       'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?w=1200',
@@ -1774,18 +1774,18 @@ export const packageDetails = {
     ],
   },
   90: {
-    name: '5-Star Laos Heritage & Nature Discovery (7N/8D)',
+    name: '5-Star Laos Heritage & Nature Discovery (8N/9D)',
     priceHTML: '&#8377;89,999',
     destination: 'Luang Prabang, Pakse, Bolaven Plateau, Wat Phou, 4000 Islands - Laos',
     itinerary: {
-      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere. In the evening, participate in a private Baci Ceremony at a local home. Overnight in Luang Prabang.',
-      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and Wat Xiengthong. Continue to Heuan Chan Heritage House, followed by coffee tasting. Enjoy sunset views from Wat Prabath before browsing the Night Market. Overnight in Luang Prabang.',
-      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall. Visit Ban Thapene Village, Bear Rescue Center, and Ock Pop Tok Living Craft Center. Optional: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
-      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages. Take a refreshing dip at Tad Yeung Waterfall. Overnight on the Bolaven Plateau.',
-      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover ethnic markets and minority villages before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region. Overnight on Khong Island.',
-      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone. Explore old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
-      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End with sunset views from Wat Phou Salao. Overnight in Pakse.',
-      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via Chongmek Border for your flight to Bangkok or onward destination.'
+      'Day 1': 'Arrival in Luang Prabang – Baci Ceremony (D): Arrive in Luang Prabang, a UNESCO World Heritage city famed for its timeless charm and cultural treasures. After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere of the old town. In the evening, participate in a private Baci Ceremony at a local home — a heartfelt Lao ritual of welcome and good fortune. Overnight in Luang Prabang.',
+      'Day 2': 'Luang Prabang City Highlights – Pak Ou Caves (B): Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves, filled with thousands of Buddha images. Stop at Ban Xanghai village to sample traditional rice wine. Return to visit Wat Sene and the elegant Wat Xiengthong. Continue to Heuan Chan Heritage House for a glimpse into aristocratic Lao life, followed by a coffee or tea tasting. Enjoy sunset views from Wat Prabath before browsing the vibrant Night Market. Overnight in Luang Prabang.',
+      'Day 3': 'Alms Giving – Kuang Si Waterfall (B): Join the sacred morning alms-giving ritual, then explore the bustling local market. Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall, a spectacular three-tier cascade with turquoise pools perfect for swimming. Visit nearby Ban Thapene Village, the Bear Rescue Center, and the Ock Pop Tok Living Craft Center. Optional stops: Buffalo Dairy Farm or Butterfly Park. Overnight in Luang Prabang.',
+      'Day 4': 'Luang Prabang – Pakse – Bolaven Plateau (B): Fly to Pakse and journey to the cool highlands of the Bolaven Plateau. Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages known for knife forging and bamboo weaving. Take a refreshing dip at Tad Yeung Waterfall before settling into your mountain retreat. Overnight on the Bolaven Plateau.',
+      'Day 5': 'Bolaven Plateau – Wat Phou – Khong Island (B): Discover the ethnic markets and minority villages of the Plateau before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site. Continue to Don Khong Island in the 4,000 Islands region and enjoy the rest of the day at leisure. Overnight on Khong Island.',
+      'Day 6': '4,000 Islands – Khone Island Exploration (B): Cruise the Mekong to Don Khone, once a French colonial outpost. Explore the old railway remnants and the impressive Liphi Waterfall. Visit a local pagoda and village before enjoying sunset over the Mekong. Optional cycling around the island. Overnight on Khone Island.',
+      'Day 7': 'Khone Island – Khone Phapheng – Pakse (B): Return to the mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia. Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet. End the day with sweeping sunset views from Wat Phou Salao. Overnight in Pakse.',
+      'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via the Chongmek Border for your flight to Bangkok or onward destination. Transfer time: approx. 3 hours.'
     },
     images: [
       'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?w=1200',

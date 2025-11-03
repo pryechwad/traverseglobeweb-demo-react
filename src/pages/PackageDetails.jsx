@@ -517,6 +517,36 @@ function getOverviewList(id, name){
         'Mekong Riverfront sunset views and local culture'
       ];
     }
+    if (idNum >= 79 && idNum <= 81) {
+      // Fourth row - Default Laos highlights
+      return [
+        'Explore UNESCO World Heritage city of Luang Prabang',
+        'Visit Pak Ou Caves with thousands of Buddha statues',
+        'Discover breathtaking Kuang Si Waterfalls with swimming',
+        'Experience traditional alms-giving ceremony at dawn',
+        'Scenic Mekong River cruise with sunset views',
+        'Visit ancient Buddhist temples and monasteries',
+        'Explore vibrant night markets and local handicrafts',
+        'Traditional Lao cuisine and cooking experiences',
+        'Comfortable accommodation with daily breakfast',
+        'Professional English-speaking guide throughout'
+      ];
+    }
+    if (idNum >= 82 && idNum <= 84) {
+      // Fifth row - 8-Day Laos Heritage & Nature Discovery highlights
+      return [
+        'Explore UNESCO World Heritage city of Luang Prabang',
+        'Private Baci Ceremony for welcome and good fortune',
+        'Visit mystical Pak Ou Caves with thousands of Buddha images',
+        'Discover spectacular Kuang Si Waterfall with turquoise pools',
+        'Experience cool highlands of Bolaven Plateau',
+        'Ancient Khmer temple complex Wat Phou (UNESCO site)',
+        '4,000 Islands region with Don Khong and Don Khone',
+        'Khone Phapheng Falls - largest waterfall in Southeast Asia',
+        'Tea and coffee plantations with local craft villages',
+        'Sacred alms-giving ceremony and cultural immersion'
+      ];
+    }
     return [
       'Airport transfers with meet & greet service',
       'Explore UNESCO World Heritage city of Luang Prabang',
@@ -739,6 +769,84 @@ function getItinerary(id, destination){
           title: 'Day 6: Vientiane – Departure (B)',
           paragraphs: [
             'Free at leisure for last-minute shopping or exploration before transferring to the airport for your onward flight.'
+          ]
+        }
+      ];
+    }
+    if (idNum >= 82 && idNum <= 84) {
+      // 8-Day Laos Heritage & Nature Discovery
+      return [
+        {
+          title: 'Day 1: Arrival in Luang Prabang – Baci Ceremony (D)',
+          paragraphs: [
+            'Arrive in Luang Prabang, a UNESCO World Heritage city famed for its timeless charm and cultural treasures.',
+            'After hotel check-in and rest, take a leisurely walk to soak in the peaceful atmosphere of the old town.',
+            'In the evening, participate in a private Baci Ceremony at a local home — a heartfelt Lao ritual of welcome and good fortune.',
+            'Overnight in Luang Prabang.'
+          ]
+        },
+        {
+          title: 'Day 2: Luang Prabang City Highlights – Pak Ou Caves (B)',
+          paragraphs: [
+            'Explore the Royal Palace Museum, then cruise along the Mekong River to the mystical Pak Ou Caves, filled with thousands of Buddha images.',
+            'Stop at Ban Xanghai village to sample traditional rice wine.',
+            'Return to visit Wat Sene and the elegant Wat Xiengthong.',
+            'Continue to Heuan Chan Heritage House for a glimpse into aristocratic Lao life, followed by a coffee or tea tasting.',
+            'Enjoy sunset views from Wat Prabath before browsing the vibrant Night Market.',
+            'Overnight in Luang Prabang.'
+          ]
+        },
+        {
+          title: 'Day 3: Alms Giving – Kuang Si Waterfall (B)',
+          paragraphs: [
+            'Join the sacred morning alms-giving ritual, then explore the bustling local market.',
+            'Climb Mount Phousi for panoramic views before heading to Kuang Si Waterfall, a spectacular three-tier cascade with turquoise pools perfect for swimming.',
+            'Visit nearby Ban Thapene Village, the Bear Rescue Center, and the Ock Pop Tok Living Craft Center.',
+            'Optional stops: Buffalo Dairy Farm or Butterfly Park.',
+            'Overnight in Luang Prabang.'
+          ]
+        },
+        {
+          title: 'Day 4: Luang Prabang – Pakse – Bolaven Plateau (B)',
+          paragraphs: [
+            'Fly to Pakse and journey to the cool highlands of the Bolaven Plateau.',
+            'Visit tea and coffee plantations, Tad Fan Waterfall, and local craft villages known for knife forging and bamboo weaving.',
+            'Take a refreshing dip at Tad Yeung Waterfall before settling into your mountain retreat.',
+            'Overnight on the Bolaven Plateau.'
+          ]
+        },
+        {
+          title: 'Day 5: Bolaven Plateau – Wat Phou – Khong Island (B)',
+          paragraphs: [
+            'Discover the ethnic markets and minority villages of the Plateau before driving to Wat Phou, an ancient Khmer temple complex and UNESCO World Heritage Site.',
+            'Continue to Don Khong Island in the 4,000 Islands region and enjoy the rest of the day at leisure.',
+            'Overnight on Khong Island.'
+          ]
+        },
+        {
+          title: 'Day 6: 4,000 Islands – Khone Island Exploration (B)',
+          paragraphs: [
+            'Cruise the Mekong to Don Khone, once a French colonial outpost.',
+            'Explore the old railway remnants and the impressive Liphi Waterfall.',
+            'Visit a local pagoda and village before enjoying sunset over the Mekong.',
+            'Optional cycling around the island.',
+            'Overnight on Khone Island.'
+          ]
+        },
+        {
+          title: 'Day 7: Khone Island – Khone Phapheng – Pakse (B)',
+          paragraphs: [
+            'Return to the mainland and visit Khone Phapheng Falls, the largest waterfall in Southeast Asia.',
+            'Travel back to Pakse, visiting Ban Khoh stone-carving village and Wat Chomphet.',
+            'End the day with sweeping sunset views from Wat Phou Salao.',
+            'Overnight in Pakse.'
+          ]
+        },
+        {
+          title: 'Day 8: Pakse – Ubon Ratchathani – Departure (B)',
+          paragraphs: [
+            'After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via the Chongmek Border for your flight to Bangkok or onward destination.',
+            'Transfer time: approx. 3 hours.'
           ]
         }
       ];
