@@ -35,6 +35,21 @@ export const singaporeBanners = [
   'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&q=80',
 ];
 
+export const vietnamBanners = [
+  'https://images.pexels.com/photos/4652275/pexels-photo-4652275.jpeg',
+  'https://images.pexels.com/photos/34571722/pexels-photo-34571722.jpeg',
+  'https://images.pexels.com/photos/34545913/pexels-photo-34545913.jpeg',
+  'https://images.pexels.com/photos/34531652/pexels-photo-34531652.jpeg',
+  'https://images.pexels.com/photos/34514455/pexels-photo-34514455.jpeg',
+];
+
+export const srilankaBanners = [
+  'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=80',
+];
+
 export const internationalDestinations = [
   { title: 'UAE', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80', link: '/uae-packages' },
   { title: 'Bali', image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80', link: '/bali-packages' },
@@ -518,7 +533,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 35799,
     price: 31799,
-    image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1660996/pexels-photo-1660996.jpeg',
   },
   {
     id: 59,
@@ -526,7 +541,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 37199,
     price: 33199,
-    image: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg',
   },
   {
     id: 60,
@@ -534,7 +549,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 42999,
     price: 38999,
-    image: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1018478/pexels-photo-1018478.jpeg',
   },
   {
     id: 61,
@@ -542,7 +557,7 @@ export const vietnamPackages = [
     nights: '4N/5D',
     strikePrice: 45999,
     price: 41999,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2181111/pexels-photo-2181111.jpeg',
   },
   {
     id: 62,
@@ -550,7 +565,7 @@ export const vietnamPackages = [
     nights: '4N/5D',
     strikePrice: 48999,
     price: 43999,
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2796627/pexels-photo-2796627.jpeg',
   },
   {
     id: 63,
@@ -558,7 +573,7 @@ export const vietnamPackages = [
     nights: '4N/5D',
     strikePrice: 57999,
     price: 53999,
-    image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/746749/pexels-photo-746749.jpeg',
   },
   {
     id: 64,
@@ -566,7 +581,7 @@ export const vietnamPackages = [
     nights: '6N/7D',
     strikePrice: 33199,
     price: 26199,
-    image: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2147980/pexels-photo-2147980.jpeg',
   },
   {
     id: 65,
@@ -574,7 +589,7 @@ export const vietnamPackages = [
     nights: '6N/7D',
     strikePrice: 33899,
     price: 30899,
-    image: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2582757/pexels-photo-2582757.jpeg',
   },
   {
     id: 66,
@@ -582,7 +597,7 @@ export const vietnamPackages = [
     nights: '6N/7D',
     strikePrice: 39599,
     price: 37599,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/3155276/pexels-photo-3155276.jpeg',
   },
   {
     id: 67,
@@ -590,7 +605,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 63999,
     price: 59999,
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/4253835/pexels-photo-4253835.jpeg',
   },
   {
     id: 68,
@@ -598,7 +613,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 72999,
     price: 67999,
-    image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/4253927/pexels-photo-4253927.jpeg',
   },
   {
     id: 69,
@@ -606,7 +621,7 @@ export const vietnamPackages = [
     nights: '3N/4D',
     strikePrice: 86999,
     price: 81999,
-    image: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2993132/pexels-photo-2993132.jpeg',
   },
 ];
 

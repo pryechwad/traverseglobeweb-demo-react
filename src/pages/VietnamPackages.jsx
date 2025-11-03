@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { vietnamPackages } from '../data/siteData';
+import { vietnamPackages, vietnamBanners } from '../data/siteData';
 import PackageCard from '../components/PackageCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -16,15 +16,10 @@ export default function VietnamPackages() {
     <div className="min-h-screen pt-20 pb-10">
       {/* Hero slider */}
       <HeroSlider
-        images={[
-          'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1920&q=80',
-        ]}
+        images={vietnamBanners}
         className="mt-0"
       >
-        <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow">Vietnam Holiday Packages</h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow text-white">Vietnam Holiday Packages</h1>
         <p className="text-white/90 mt-3">Explore Ho Chi Minh City, Hanoi, Halong Bay & Hoi An - 4N/5D to 7N/8D Tours</p>
         <div className="max-w-3xl mx-auto mt-5">
           <form
