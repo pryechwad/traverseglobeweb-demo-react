@@ -8,7 +8,31 @@ export const banners = [
   'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&q=80', // Singapore Marina Bay cityscape
   'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1920&q=80', // Japan Mount Fuji with cherry blossoms
   'https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?auto=format&fit=crop&w=1920&q=80', // Egypt Pyramids of Giza
-  'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1920&q=80', // Hot air balloons over Cappadocia Turkey
+];
+
+export const laosBanners = [
+  'https://images.pexels.com/photos/924631/pexels-photo-924631.jpeg?auto=format&fit=crop&w=1920&q=80',
+  'https://images.pexels.com/photos/924633/pexels-photo-924633.jpeg?auto=format&fit=crop&w=1920&q=80',
+  'https://images.pexels.com/photos/30174701/pexels-photo-30174701.jpeg',
+  'https://images.pexels.com/photos/1385474/pexels-photo-1385474.jpeg',
+  'https://images.pexels.com/photos/1105525/pexels-photo-1105525.jpeg',
+];
+
+export const uaeBanners = [
+  'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const baliBanners = [
+  'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const thailandBanners = [
+  'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const singaporeBanners = [
+  'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&q=80',
 ];
 
 export const internationalDestinations = [
@@ -18,7 +42,7 @@ export const internationalDestinations = [
   { title: 'Singapore', image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=80', link: '/singapore-packages' },
   { title: 'Sri Lanka', image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80', link: '/srilanka-packages' },
   { title: 'Vietnam', image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80', link: '/vietnam-packages' },
-  { title: 'Laos', image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=800&q=80', link: '/laos-packages' },
+  { title: 'Laos', image: 'https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFvc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000', link: '/laos-packages' },
 ];
 
 export const domesticDestinations = [
@@ -594,7 +618,7 @@ export const laosPackages = [
     nights: '2N/3D',
     strikePrice: 48599,
     price: 43599,
-    image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/31495557/pexels-photo-31495557.jpeg?cs=srgb&dl=pexels-petrushchak-31495557.jpg&fm=jpg',
   },
   {
     id: 71,
@@ -602,7 +626,7 @@ export const laosPackages = [
     nights: '2N/3D',
     strikePrice: 49970,
     price: 47970,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/4463430/pexels-photo-4463430.jpeg',
   },
   {
     id: 72,
@@ -610,7 +634,7 @@ export const laosPackages = [
     nights: '2N/3D',
     strikePrice: 68170,
     price: 64170,
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwa_wCxgwryjNI2GSNB5yxwma6VdEy2kVAg&s',
   },
   {
     id: 73,
@@ -618,7 +642,7 @@ export const laosPackages = [
     nights: '3N/4D',
     strikePrice: 58199,
     price: 55199,
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMg0SbwUlotffM9kLliM_DGWeZ7w3cO6LfqZFAviuJD3D8Db8XqDRrznsJsgWD160VTq4&usqp=CAU',
   },
   {
     id: 74,
@@ -626,7 +650,7 @@ export const laosPackages = [
     nights: '3N/4D',
     strikePrice: 68199,
     price: 62199,
-    image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInGJ6I2c1FQlRI6eGt8-t9OpRHtpiR_B8Yw&s',
   },
   {
     id: 75,
@@ -634,7 +658,7 @@ export const laosPackages = [
     nights: '3N/4D',
     strikePrice: 89560,
     price: 86580,
-    image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1105525/pexels-photo-1105525.jpeg',
   },
   {
     id: 76,
@@ -642,7 +666,7 @@ export const laosPackages = [
     nights: '5N/6D',
     strikePrice: 83910,
     price: 80910,
-    image: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/4553124/pexels-photo-4553124.jpeg',
   },
   {
     id: 77,
@@ -650,7 +674,7 @@ export const laosPackages = [
     nights: '5N/6D',
     strikePrice: 91200,
     price: 88200,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 78,
@@ -658,7 +682,7 @@ export const laosPackages = [
     nights: '5N/6D',
     strikePrice: 119370,
     price: 116370,
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/29443225/pexels-photo-29443225.jpeg',
   },
   {
     id: 79,
@@ -666,7 +690,7 @@ export const laosPackages = [
     nights: '8N/9D',
     strikePrice: 117420,
     price: 111420,
-    image: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1385474/pexels-photo-1385474.jpeg',
   },
   {
     id: 80,
@@ -674,7 +698,7 @@ export const laosPackages = [
     nights: '2N/3D',
     strikePrice: 123990,
     price: 119990,
-    image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/17653317/pexels-photo-17653317.jpeg',
   },
   {
     id: 81,
@@ -682,7 +706,7 @@ export const laosPackages = [
     nights: '4N/5D',
     strikePrice: 158999,
     price: 152199,
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/17653318/pexels-photo-17653318.jpeg',
   },
   {
     id: 82,
@@ -690,7 +714,7 @@ export const laosPackages = [
     nights: '5N/6D',
     strikePrice: 143199,
     price: 140199,
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/9718010/pexels-photo-9718010.jpeg',
   },
   {
     id: 83,
@@ -698,7 +722,7 @@ export const laosPackages = [
     nights: '6N/7D',
     strikePrice: 149999,
     price: 145999,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/11067407/pexels-photo-11067407.jpeg',
   },
   {
     id: 84,
@@ -706,7 +730,7 @@ export const laosPackages = [
     nights: '7N/8D',
     strikePrice: 163999,
     price: 158999,
-    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/31418553/pexels-photo-31418553.jpeg',
   },
 ];
 
@@ -1485,10 +1509,10 @@ export const packageDetails = {
     priceHTML: '&#8377;19,999',
     destination: 'Luang Prabang - Laos',
     images: [
+      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
       'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
       'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
       'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
     ],
   },
   71: {
@@ -1496,10 +1520,10 @@ export const packageDetails = {
     priceHTML: '&#8377;25,999',
     destination: 'Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200',
+      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
     ],
   },
   72: {
@@ -1507,10 +1531,10 @@ export const packageDetails = {
     priceHTML: '&#8377;32,999',
     destination: 'Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200',
     ],
   },
   73: {
@@ -1518,10 +1542,10 @@ export const packageDetails = {
     priceHTML: '&#8377;25,999',
     destination: 'Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
+      'https://images.unsplash.com/photo-1528181304800-259b08848526?w=1200',
+      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=1200',
     ],
   },
   74: {
@@ -1529,10 +1553,10 @@ export const packageDetails = {
     priceHTML: '&#8377;31,999',
     destination: 'Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200',
+      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
     ],
   },
   75: {
@@ -1540,10 +1564,10 @@ export const packageDetails = {
     priceHTML: '&#8377;38,999',
     destination: 'Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=1200',
+      'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200',
     ],
   },
   76: {
@@ -1551,10 +1575,10 @@ export const packageDetails = {
     priceHTML: '&#8377;35,999',
     destination: 'Luang Prabang, Vientiane - Laos',
     images: [
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
+      'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=1200',
+      'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200',
+      'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200',
+      'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200',
     ],
   },
   77: {
@@ -1562,10 +1586,10 @@ export const packageDetails = {
     priceHTML: '&#8377;42,999',
     destination: 'Luang Prabang, Vientiane - Laos',
     images: [
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
+      'https://media.istockphoto.com/id/831586564/photo/patuxai-monument-in-vientiane.jpg?s=612x612&w=0&k=20&c=gN5IpjeVgiD36q9OSPRzHfFLl2sj7CO6ihnIa4A-Z3I=',
+      'https://media.istockphoto.com/id/467461005/photo/hot-air-balloon-at-sunrise-vang-vieng-laos.jpg?s=612x612&w=0&k=20&c=_OGle-kv9cEcrclg5Gg7oLOmLfZL5rQn1_QUFDErl8c=',
+      'https://media.istockphoto.com/id/1473427033/photo/aerial-view-of-luang-prabang-town-and-mekong-river.jpg?s=612x612&w=0&k=20&c=kJiCuy_RO-IzhevTi7nOGRX5rLex9m6QJV5QdTo_gI8=',
+      'https://media.istockphoto.com/id/1184268882/photo/patuxay-vientiane-laos-sunrise-in-morning-at-at-patuxai.jpg?s=612x612&w=0&k=20&c=UHRlOFCq9HsTsuJHjDd6u6QCMNiX9YrnLaoG0_Styqg=',
     ],
   },
   78: {
@@ -1573,43 +1597,43 @@ export const packageDetails = {
     priceHTML: '&#8377;49,999',
     destination: 'Luang Prabang, Vientiane - Laos',
     images: [
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://media.istockphoto.com/id/857365778/photo/sunset-over-green-rice-fields-and-mountains-in-vang-vieng-laos.jpg?s=612x612&w=0&k=20&c=ta53NAjRFNvUFQ6Y8RzFSgDa4oD74uNIkHj6MsKePXE=',
+      'https://media.istockphoto.com/id/1140504665/photo/landscape-of-vang-vieng-city-laos.jpg?s=612x612&w=0&k=20&c=QvJResnmoKVfxu1zgZnqdDaCLAgLvrW-rfzCMLYquhM=',
+      'https://media.istockphoto.com/id/810049010/photo/wat-xieng-thong-temple-luang-pra-bang-laos.jpg?s=612x612&w=0&k=20&c=ZIJOnoCA1ZdCFkakqiqfPd3TnEfNG9qoylJFpcdS0wY=',
+      'https://media.istockphoto.com/id/810090256/photo/wat-xieng-thong-in-luang-prabang-laos-xieng-thong-temple-is-one-of-the-most-important-of-lao.jpg?s=612x612&w=0&k=20&c=L8lmTwAIVvhuudBW8xNAolEErQD3G7L-63nQ7QbkAaw=',
     ],
   },
   79: {
-    name: 'Laos Ultimate Journey - Complete Indochina (8N/9D)',
+    name: '3- Star Laos Ultimate Journey - Complete Indochina (8N/9D)',
     priceHTML: '&#8377;64,999',
     destination: 'Vientiane, Luang Prabang, Vang Vieng, Pakse, Champasak, 4000 Islands - Laos',
     images: [
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
+      'https://media.istockphoto.com/id/2162870359/photo/wat-si-saket-vientiane-laos.jpg?s=612x612&w=0&k=20&c=8nio_8rViwXcTCsLZK0Vrk-dPJNnDdpF2daoNpFqre4=',
+      'https://media.istockphoto.com/id/1184268882/photo/patuxay-vientiane-laos-sunrise-in-morning-at-at-patuxai.jpg?s=612x612&w=0&k=20&c=UHRlOFCq9HsTsuJHjDd6u6QCMNiX9YrnLaoG0_Styqg=',
+      'https://media.istockphoto.com/id/611609802/photo/rice-fields-on-terraced-of-mu-cang-chai-yenbai-vietnam.jpg?s=612x612&w=0&k=20&c=fen9FXrdANizX7oMFQbVexqyjQDugJymqmicRYd-WW0=',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGUrXORw-lZuj3vd3N3qCuy63gZJxCu3nm2w&s',
     ],
   },
   80: {
-    name: 'Laos Backpacker Special - Budget Adventure (2N/3D)',
+    name: '4- Star Laos Backpacker Special - Budget Adventure (2N/3D)',
     priceHTML: '&#8377;15,999',
     destination: 'Vientiane, Luang Prabang - Laos',
     images: [
-      'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.unsplash.com/photo-1684918172034-399cc1ad6564?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROIqwgggKLK46xGxqTwaoVpUQ81H0ZaMvpOQ&s',
+      'https://images.unsplash.com/photo-1705917950934-7efe2b6866cc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1686120552846-7caf1a345876?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
     ],
   },
   81: {
-    name: 'Laos Spiritual Journey - Temples & Meditation (4N/5D)',
+    name: '5- Star Laos Spiritual Journey - Temples & Meditation (4N/5D)',
     priceHTML: '&#8377;29,999',
     destination: 'Luang Prabang, Vang Vieng - Laos',
     images: [
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
+      'https://media.istockphoto.com/id/611609802/photo/rice-fields-on-terraced-of-mu-cang-chai-yenbai-vietnam.jpg?s=612x612&w=0&k=20&c=fen9FXrdANizX7oMFQbVexqyjQDugJymqmicRYd-WW0=',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGUrXORw-lZuj3vd3N3qCuy63gZJxCu3nm2w&s',
+      'https://images.unsplash.com/photo-1686120552846-7caf1a345876?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1694785918647-b392a36aec75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600',
     ],
   },
   82: {
@@ -1617,10 +1641,10 @@ export const packageDetails = {
     priceHTML: '&#8377;37,999',
     destination: 'Luang Prabang, Vang Vieng, Pakse - Laos',
     images: [
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
+      'https://plus.unsplash.com/premium_photo-1694475495121-cf6b8e57f219?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1712455498779-2a82e9d4b41a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1553856622-d1b352e9a211?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1603681033751-717c7e410fdf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
     ],
   },
   83: {
@@ -1628,10 +1652,10 @@ export const packageDetails = {
     priceHTML: '&#8377;55,999',
     destination: 'Vientiane, Luang Prabang, Champasak - Laos',
     images: [
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=1200',
+      'https://images.unsplash.com/photo-1552058185-b7e8f6744229?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1626374222999-a853af7640d3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1535961652354-923cb08225a7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://images.unsplash.com/photo-1633984904221-29bb70dffef8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
     ],
   },
   84: {
@@ -1639,10 +1663,10 @@ export const packageDetails = {
     priceHTML: '&#8377;48,999',
     destination: 'Luang Prabang, Pakse, Champasak, 4000 Islands - Laos',
     images: [
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1558220168-42cbb39df876?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGxhb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600',
+      'https://media.istockphoto.com/id/1473427033/photo/aerial-view-of-luang-prabang-town-and-mekong-river.jpg?s=612x612&w=0&k=20&c=kJiCuy_RO-IzhevTi7nOGRX5rLex9m6QJV5QdTo_gI8=',
+      'https://media.istockphoto.com/id/1473427033/photo/aerial-view-of-luang-prabang-town-and-mekong-river.jpg?s=612x612&w=0&k=20&c=kJiCuy_RO-IzhevTi7nOGRX5rLex9m6QJV5QdTo_gI8=',
+      'https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFvc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000',
     ],
   },
   // Vientiane-Vang Vieng-Luang Prabang Tour (85-87)
@@ -1660,10 +1684,10 @@ export const packageDetails = {
       'Day 7': 'Departure (B): Free time until transfer to the airport for your onward flight.'
     },
     images: [
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?w=1200',
+      'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?w=1200',
+      'https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1200',
+      'https://images.unsplash.com/photo-1559804506-669a67965ba0?w=1200',
     ],
   },
   86: {
@@ -1680,10 +1704,10 @@ export const packageDetails = {
       'Day 7': 'Departure (B): Free time until transfer to the airport for your onward flight.'
     },
     images: [
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
     ],
   },
   87: {
@@ -1700,10 +1724,10 @@ export const packageDetails = {
       'Day 7': 'Departure (B): Free time until transfer to the airport for your onward flight.'
     },
     images: [
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
     ],
   },
   // 8-Day Laos Heritage & Nature Discovery (88-90)
@@ -1723,9 +1747,9 @@ export const packageDetails = {
     },
     images: [
       'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?w=1200',
+      'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?w=1200',
+      'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1200',
     ],
   },
   89: {
@@ -1743,10 +1767,10 @@ export const packageDetails = {
       'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via Chongmek Border for your flight to Bangkok or onward destination.'
     },
     images: [
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
+      'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?w=1200',
       'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?w=1200',
+      'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1200',
     ],
   },
   90: {
@@ -1764,10 +1788,10 @@ export const packageDetails = {
       'Day 8': 'Pakse – Ubon Ratchathani – Departure (B): After breakfast, transfer to Ubon Ratchathani Airport (Thailand) via Chongmek Border for your flight to Bangkok or onward destination.'
     },
     images: [
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
+      'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?w=1200',
+      'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?w=1200',
       'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1200',
     ],
   },
 };
