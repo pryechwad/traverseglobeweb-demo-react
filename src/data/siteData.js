@@ -27,7 +27,11 @@ export const uaeBanners = [
 ];
 
 export const baliBanners = [
-  'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1920&q=80',
+  'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop',
+  'https://images.pexels.com/photos/2166643/pexels-photo-2166643.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop',
+  'https://images.pexels.com/photos/2100804/pexels-photo-2100804.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop',
+  'https://images.pexels.com/photos/889954/pexels-photo-889954.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop',
+  'https://images.pexels.com/photos/1643130/pexels-photo-1643130.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop',
 ];
 
 export const thailandBanners = [
@@ -55,7 +59,7 @@ export const srilankaBanners = [
 
 export const internationalDestinations = [
   { title: 'UAE', image: 'https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', link: '/uae-packages' },
-  { title: 'Bali', image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80', link: '/bali-packages' },
+  { title: 'Bali', image: 'https://images.pexels.com/photos/3067621/pexels-photo-3067621.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', link: '/bali-packages' },
   { title: 'Thailand', image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80', link: '/thailand-packages' },
   { title: 'Singapore', image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=80', link: '/singapore-packages' },
   { title: 'Sri Lanka', image: 'https://images.pexels.com/photos/16508228/pexels-photo-16508228.jpeg?auto=compress&cs=tinysrgb&w=800', link: '/srilanka-packages' },
@@ -162,7 +166,7 @@ export const baliPackages = [
     nights: '4N/5D',
     strikePrice: 34999,
     price: 28999,
-    image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg',
   },
   {
     id: 12,
@@ -170,7 +174,7 @@ export const baliPackages = [
     nights: '4N/5D',
     strikePrice: 42999,
     price: 36999,
-    image: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/1544351/pexels-photo-1544351.jpeg',
   },
   {
     id: 13,
@@ -178,7 +182,7 @@ export const baliPackages = [
     nights: '4N/5D',
     strikePrice: 52999,
     price: 45999,
-    image: 'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/3068249/pexels-photo-3068249.jpeg',
   },
   {
     id: 14,
@@ -186,7 +190,7 @@ export const baliPackages = [
     nights: '7D/6N',
     strikePrice: 62999,
     price: 52999,
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2573486/pexels-photo-2573486.jpeg',
   },
   {
     id: 15,
@@ -194,7 +198,7 @@ export const baliPackages = [
     nights: '8D/7N',
     strikePrice: 54999,
     price: 45999,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2253813/pexels-photo-2253813.jpeg',
   },
   // Additional Bali packages (from Balicard.html)
   {
@@ -203,7 +207,7 @@ export const baliPackages = [
     nights: '4N/5D',
     strikePrice: 48999,
     price: 42999,
-    image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/3436480/pexels-photo-3436480.jpeg',
   },
   {
     id: 27,
@@ -211,7 +215,7 @@ export const baliPackages = [
     nights: '5N/6D',
     strikePrice: 41999,
     price: 36999,
-    image: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/6336345/pexels-photo-6336345.jpeg',
   },
   {
     id: 28,
@@ -219,7 +223,7 @@ export const baliPackages = [
     nights: '3N/4D',
     strikePrice: 28999,
     price: 24999,
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2253821/pexels-photo-2253821.jpeg',
   },
   {
     id: 29,
@@ -227,7 +231,7 @@ export const baliPackages = [
     nights: '8N/9D',
     strikePrice: 68999,
     price: 58999,
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2583833/pexels-photo-2583833.jpeg',
   },
   {
     id: 30,
@@ -235,7 +239,7 @@ export const baliPackages = [
     nights: '9N/10D',
     strikePrice: 72999,
     price: 62999,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/2403025/pexels-photo-2403025.jpeg',
   },
 ];
 
@@ -886,10 +890,10 @@ export const packageDetails = {
       'Day 5': 'Departure from Bali | Airport Transfer: Enjoy a leisurely breakfast at the hotel before checking out. Our representative will assist you with your transfer to Ngurah Rai International Airport for your onward journey.'
     },
     images: [
-      'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200',
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg',
+      'https://images.pexels.com/photos/1643130/pexels-photo-1643130.jpeg',
+      'https://images.pexels.com/photos/889954/pexels-photo-889954.jpeg',
+      'https://images.pexels.com/photos/2412711/pexels-photo-2412711.jpeg',
     ],
   },
   12: {
@@ -904,10 +908,10 @@ export const packageDetails = {
       'Day 5': 'Departure from Bali | Airport Transfer: Enjoy a leisurely breakfast at the hotel before checking out. Our representative will assist you with your transfer to Ngurah Rai International Airport for your onward journey.'
     },
     images: [
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200',
-      'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg',
+      'https://images.pexels.com/photos/2573486/pexels-photo-2573486.jpeg',
+      'https://images.pexels.com/photos/994477/pexels-photo-994477.jpeg',
+      'https://images.pexels.com/photos/1005474/pexels-photo-1005474.jpeg',
     ],
   },
   13: {
@@ -922,10 +926,10 @@ export const packageDetails = {
       'Day 5': 'Departure from Bali | Airport Transfer: Enjoy a leisurely breakfast at the hotel before checking out. Our representative will assist you with your transfer to Ngurah Rai International Airport for your onward journey.'
     },
     images: [
-      'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?w=1200',
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.pexels.com/photos/2583833/pexels-photo-2583833.jpeg',
+      'https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg',
+      'https://images.pexels.com/photos/2412711/pexels-photo-2412711.jpeg',
+      'https://images.pexels.com/photos/1005472/pexels-photo-1005472.jpeg',
     ],
   },
   14: {
@@ -933,10 +937,10 @@ export const packageDetails = {
     priceHTML: '&#8377;52,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://picsum.photos/1200/675?random=23',
-      'https://picsum.photos/1200/675?random=24',
-      'https://picsum.photos/1200/675?random=25',
-      'https://picsum.photos/1200/675?random=26',
+      'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg',
+      'https://images.pexels.com/photos/1850539/pexels-photo-1850539.jpeg',
+      'https://images.pexels.com/photos/6015472/pexels-photo-6015472.jpeg',
+      'https://images.pexels.com/photos/6336345/pexels-photo-6336345.jpeg',
     ],
   },
   15: {
@@ -944,10 +948,10 @@ export const packageDetails = {
     priceHTML: '&#8377;45,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://picsum.photos/1200/675?random=27',
-      'https://picsum.photos/1200/675?random=28',
-      'https://picsum.photos/1200/675?random=29',
-      'https://picsum.photos/1200/675?random=30',
+      'https://images.pexels.com/photos/32387246/pexels-photo-32387246.jpeg',
+      'https://images.pexels.com/photos/6965316/pexels-photo-6965316.jpeg',
+      'https://images.pexels.com/photos/1694621/pexels-photo-1694621.jpeg',
+      'https://images.pexels.com/photos/6964999/pexels-photo-6964999.jpeg',
     ],
   },
   // Bali Extended (26-30)
@@ -956,10 +960,10 @@ export const packageDetails = {
     priceHTML: '&#8377;42,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200',
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.pexels.com/photos/3067621/pexels-photo-3067621.jpeg',
+      'https://images.pexels.com/photos/2573486/pexels-photo-2573486.jpeg',
+      'https://images.pexels.com/photos/29989224/pexels-photo-29989224.jpeg',
+      'https://images.pexels.com/photos/29989223/pexels-photo-29989223.jpeg',
     ],
   },
   27: {
@@ -967,10 +971,10 @@ export const packageDetails = {
     priceHTML: '&#8377;36,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
+      'https://images.pexels.com/photos/889954/pexels-photo-889954.jpeg',
+      'https://images.pexels.com/photos/6965529/pexels-photo-6965529.jpeg',
+      'https://images.pexels.com/photos/6015450/pexels-photo-6015450.jpeg',
+      'https://images.pexels.com/photos/6015472/pexels-photo-6015472.jpeg',
     ],
   },
   28: {
@@ -978,10 +982,10 @@ export const packageDetails = {
     priceHTML: '&#8377;24,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?w=1200',
-      'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200',
+      'https://images.pexels.com/photos/2677214/pexels-photo-2677214.jpeg',
+      'https://images.pexels.com/photos/6965525/pexels-photo-6965525.jpeg',
+      'https://images.pexels.com/photos/31973187/pexels-photo-31973187.jpeg',
+      'https://images.pexels.com/photos/7723736/pexels-photo-7723736.jpeg',
     ],
   },
   29: {
@@ -989,10 +993,10 @@ export const packageDetails = {
     priceHTML: '&#8377;58,999',
     destination: 'Bali, Indonesia',
     images: [
-      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200',
-      'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200',
-      'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200',
-      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200',
+      'https://images.pexels.com/photos/1850547/pexels-photo-1850547.jpeg',
+      'https://images.pexels.com/photos/4913546/pexels-photo-4913546.jpeg',
+      'https://images.pexels.com/photos/4517401/pexels-photo-4517401.jpeg',
+      'https://images.pexels.com/photos/14984120/pexels-photo-14984120.jpeg',
     ],
   },
   30: {

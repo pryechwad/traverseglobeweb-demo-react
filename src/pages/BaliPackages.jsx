@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { baliPackages } from '../data/siteData';
+import { baliPackages, baliBanners } from '../data/siteData';
 import PackageCard from '../components/PackageCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -14,46 +14,43 @@ export default function BaliPackages() {
 
   return (
     <div className="min-h-screen pt-20 pb-10">
-      {/* Hero slider */}
-      <HeroSlider
-        images={[
-          'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1555400082-6e5b3c8b6b0a?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80',
-        ]}
-        className="mt-0"
-      >
-  <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow">Bali Holiday Packages</h1>
-        <p className="text-white/90 mt-3">Curated Bali itineraries with beach, culture, and adventure</p>
-        <div className="max-w-3xl mx-auto mt-5">
-          <form
-            className="flex overflow-hidden rounded-full shadow-xl bg-white"
-            onSubmit={(e) => {
-              e.preventDefault();
-              setSearchTerm(query);
-            }}
-          >
-            <input
-              className="flex-1 px-6 py-3 outline-none"
-              placeholder="Search Bali packages..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-            <button
-              type="submit"
-              className="bg-primary text-white px-6 hover:bg-secondary transition-colors"
-              aria-label="Search"
-            >
-              <i className="fa fa-search" />
-            </button>
-          </form>
-          {searchTerm && (
-            <p className="text-white/90 text-sm mt-2">Showing results for: <span className="font-semibold">{searchTerm}</span></p>
-          )}
-        </div>
-      </HeroSlider>
+      {/* Hero Slider */}
+      <section className="relative">
+        <HeroSlider 
+          images={baliBanners} 
+          className="w-full h-[280px] md:h-[420px] lg:h-[520px]"
+        >
+          <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-10 w-11/12 max-w-3xl">
+            <div className="bg-white rounded-2xl p-4 md:p-5 shadow-2xl border border-lightGray">
+              <div className="text-center mb-4">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-season font-bold text-darkBlue">Bali Holiday Packages</h1>
+                <p className="text-darkBlue/70 mt-2 font-canva-sans">Curated Bali itineraries with beach, culture, and adventure</p>
+              </div>
+              <form
+                className="flex flex-col md:flex-row gap-2 md:gap-0"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  setSearchTerm(query);
+                }}
+              >
+                <input
+                  className="flex-1 px-4 py-2.5 md:rounded-l-full rounded-full md:rounded-r-none border-2 border-lightGray focus:outline-none focus:border-orange text-darkBlue text-sm font-canva-sans placeholder:text-darkBlue/50"
+                  placeholder="Search Bali packages..."
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                />
+                <button type="submit" className="bg-orange hover:bg-teal text-white px-5 py-2.5 text-sm md:rounded-r-full rounded-full md:rounded-l-none transition-all font-poppins font-semibold shadow-lg hover:shadow-xl">
+                  <i className="fas fa-search mr-2"></i>
+                  Search
+                </button>
+              </form>
+              {searchTerm && (
+                <p className="text-darkBlue/60 text-sm mt-2 text-center">Showing results for: <span className="font-semibold">{searchTerm}</span></p>
+              )}
+            </div>
+          </div>
+        </HeroSlider>
+      </section>
 
       {/* Grid */}
       <section className="py-8">
