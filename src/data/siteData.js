@@ -55,8 +55,8 @@ export const internationalDestinations = [
   { title: 'Bali', image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80', link: '/bali-packages' },
   { title: 'Thailand', image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80', link: '/thailand-packages' },
   { title: 'Singapore', image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=80', link: '/singapore-packages' },
-  { title: 'Sri Lanka', image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80', link: '/srilanka-packages' },
-  { title: 'Vietnam', image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80', link: '/vietnam-packages' },
+  { title: 'Sri Lanka', image: 'https://images.pexels.com/photos/16508228/pexels-photo-16508228.jpeg?auto=compress&cs=tinysrgb&w=800', link: '/srilanka-packages' },
+  { title: 'Vietnam', image: 'https://images.pexels.com/photos/4652275/pexels-photo-4652275.jpeg?auto=compress&cs=tinysrgb&w=800', link: '/vietnam-packages' },
   { title: 'Laos', image: 'https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFvc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000', link: '/laos-packages' },
 ];
 
@@ -1391,10 +1391,10 @@ export const packageDetails = {
     priceHTML: '&#8377;31,999',
     destination: 'Hanoi, Ha Long Bay - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.pexels.com/photos/1660996/pexels-photo-1660996.jpeg',
+      'https://images.pexels.com/photos/2796627/pexels-photo-2796627.jpeg',
+      'https://images.pexels.com/photos/34574527/pexels-photo-34574527.jpeg',
+      'https://images.pexels.com/photos/34571815/pexels-photo-34571815.jpeg',
     ],
   },
   59: {
@@ -1402,10 +1402,10 @@ export const packageDetails = {
     priceHTML: '&#8377;37,999',
     destination: 'Hanoi, Ha Long Bay - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.pexels.com/photos/34545913/pexels-photo-34545913.jpeg',
+      'https://images.pexels.com/photos/5334890/pexels-photo-5334890.jpeg',
+      'https://images.pexels.com/photos/34531652/pexels-photo-34531652.jpeg',
+      'https://images.pexels.com/photos/34477004/pexels-photo-34477004.jpeg',
     ],
   },
   60: {
@@ -1413,10 +1413,10 @@ export const packageDetails = {
     priceHTML: '&#8377;44,999',
     destination: 'Hanoi, Ha Long Bay - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
+      'https://images.pexels.com/photos/34522667/pexels-photo-34522667.jpeg',
+      'https://images.pexels.com/photos/34517302/pexels-photo-34517302.jpeg',
+      'https://images.pexels.com/photos/34516528/pexels-photo-34516528.jpeg',
+      'https://images.pexels.com/photos/34503582/pexels-photo-34503582.jpeg',
     ],
   },
   61: {
@@ -1424,10 +1424,10 @@ export const packageDetails = {
     priceHTML: '&#8377;38,999',
     destination: 'Hanoi, Ha Long Bay, Ninh Binh - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
+      'https://images.pexels.com/photos/34502541/pexels-photo-34502541.jpeg',
+      'https://images.pexels.com/photos/34503141/pexels-photo-34503141.jpeg',
+      'https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg',
+      'https://images.pexels.com/photos/2166695/pexels-photo-2166695.jpeg',
     ],
   },
   62: {
@@ -1435,10 +1435,10 @@ export const packageDetails = {
     priceHTML: '&#8377;44,999',
     destination: 'Hanoi, Ha Long Bay, Ninh Binh - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
+      'https://images.pexels.com/photos/4253835/pexels-photo-4253835.jpeg',
+      'https://images.pexels.com/photos/34486867/pexels-photo-34486867.jpeg',
+      'https://images.pexels.com/photos/2162459/pexels-photo-2162459.jpeg',
+      'https://images.pexels.com/photos/2152994/pexels-photo-2152994.jpeg',
     ],
   },
   63: {
@@ -1446,10 +1446,10 @@ export const packageDetails = {
     priceHTML: '&#8377;51,999',
     destination: 'Hanoi, Ha Long Bay, Ninh Binh - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
+      'https://images.pexels.com/photos/235925/pexels-photo-235925.jpeg',
+      'https://images.pexels.com/photos/34487743/pexels-photo-34487743.jpeg',
+      'https://images.pexels.com/photos/2162459/pexels-photo-2162459.jpeg',
+      'https://images.pexels.com/photos/2162442/pexels-photo-2162442.jpeg',
     ],
   },
   64: {
@@ -1457,10 +1457,10 @@ export const packageDetails = {
     priceHTML: '&#8377;45,999',
     destination: 'Hanoi, Ho Chi Minh City, Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.pexels.com/photos/2884600/pexels-photo-2884600.jpeg',
+      'https://images.pexels.com/photos/5334890/pexels-photo-5334890.jpeg',
+      'https://images.pexels.com/photos/34517107/pexels-photo-34517107.jpeg',
+      'https://images.pexels.com/photos/34502541/pexels-photo-34502541.jpeg',
     ],
   },
   65: {
@@ -1468,10 +1468,10 @@ export const packageDetails = {
     priceHTML: '&#8377;51,999',
     destination: 'Hanoi, Ho Chi Minh City, Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.pexels.com/photos/1882228/pexels-photo-1882228.jpeg',
+      'https://images.pexels.com/photos/5481200/pexels-photo-5481200.jpeg',
+      'https://images.pexels.com/photos/7264054/pexels-photo-7264054.jpeg',
+      'https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg',
     ],
   },
   66: {
@@ -1479,10 +1479,10 @@ export const packageDetails = {
     priceHTML: '&#8377;58,999',
     destination: 'Hanoi, Ho Chi Minh City, Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1528127269322-539801943592?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
+      'https://images.pexels.com/photos/27356535/pexels-photo-27356535.jpeg',
+      'https://images.pexels.com/photos/30174359/pexels-photo-30174359.jpeg',
+      'https://images.pexels.com/photos/2831299/pexels-photo-2831299.jpeg',
+      'https://images.pexels.com/photos/692426/pexels-photo-692426.jpeg',
     ],
   },
   67: {
@@ -1490,10 +1490,10 @@ export const packageDetails = {
     priceHTML: '&#8377;28,999',
     destination: 'Ho Chi Minh City (Saigon), Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.pexels.com/photos/4253927/pexels-photo-4253927.jpeg',
+      'https://images.pexels.com/photos/1460761/pexels-photo-1460761.png',
+      'https://images.pexels.com/photos/746756/pexels-photo-746756.jpeg',
+      'https://images.pexels.com/photos/8152028/pexels-photo-8152028.jpeg',
     ],
   },
   68: {
@@ -1501,10 +1501,10 @@ export const packageDetails = {
     priceHTML: '&#8377;34,999',
     destination: 'Ho Chi Minh City (Saigon), Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.pexels.com/photos/188008/pexels-photo-188008.jpeg',
+      'https://images.pexels.com/photos/6531913/pexels-photo-6531913.jpeg',
+      'https://images.pexels.com/photos/6481618/pexels-photo-6481618.jpeg',
+      'https://images.pexels.com/photos/1621248/pexels-photo-1621248.png',
     ],
   },
   69: {
@@ -1512,10 +1512,10 @@ export const packageDetails = {
     priceHTML: '&#8377;41,999',
     destination: 'Ho Chi Minh City (Saigon), Cu Chi Tunnels, Mekong Delta - Vietnam',
     images: [
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200',
-      'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200',
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200',
-      'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=1200',
+      'https://images.pexels.com/photos/2162725/pexels-photo-2162725.jpeg',
+      'https://images.pexels.com/photos/1467989/pexels-photo-1467989.png',
+      'https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg',
+      'https://images.pexels.com/photos/19828761/pexels-photo-19828761.jpeg',
     ],
   },
   // Laos Package Details (70-84)
