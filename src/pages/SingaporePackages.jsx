@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { singaporePackages } from '../data/siteData';
+import { singaporePackages, singaporeBanners } from '../data/siteData';
 import PackageCard from '../components/PackageCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -15,15 +15,10 @@ export default function SingaporePackages() {
   return (
     <div className="min-h-screen pt-20 pb-10">
       <HeroSlider
-        images={[
-          'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1496939376851-89342e90adcd?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=1920&q=80',
-          'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1920&q=80',
-        ]}
+        images={singaporeBanners}
+        className="w-full h-[280px] md:h-[420px] lg:h-[520px]"
       >
-  <h1 className="text-3xl md:text-4xl font-extrabold drop-shadow">Singapore Holiday Packages</h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold text-white drop-shadow-lg">Singapore Holiday Packages</h1>
         <p className="text-white/90 mt-3">City lights, world-class attractions, and family fun</p>
         <div className="max-w-3xl mx-auto mt-5">
           <form
