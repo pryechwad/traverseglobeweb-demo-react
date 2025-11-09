@@ -3,6 +3,16 @@ import { useState, useRef, useEffect, useMemo } from 'react';
 import { slugify } from '../utils/slug';
 import { packageDetails } from '../data/siteData';
 
+// Utility function to extract days from nights format
+const getDaysFromNights = (nights) => {
+  if (!nights) return '';
+  const match = nights.match(/(\d+)N\/(\d+)D/);
+  if (match) {
+    return `${match[2]} Days`;
+  }
+  return nights;
+};
+
 export const PriceTag = ({ strike, price }) => (
   <div className="mt-2">
     {typeof strike === 'number' && (
@@ -23,8 +33,8 @@ export default function PackageCard({ pkg, onView, buttonLabel = 'View Package',
 
   // Compute a stable slug for the package details page
   const computedSlug = useMemo(() => {
-    const detailName = packageDetails?.[pkg.id]?.name;
-    const base = detailName || pkg.title;
+    const packageDetail = packageDetails?.[pkg.id];
+    const base = packageDetail?.name || pkg.title;
     return slugify(base);
   }, [pkg.id, pkg.title]);
 
@@ -36,6 +46,10 @@ export default function PackageCard({ pkg, onView, buttonLabel = 'View Package',
     if ((id >= 16 && id <= 20) || (id >= 36 && id <= 39)) return 'thailand';
     if ((id >= 21 && id <= 25) || (id >= 31 && id <= 35)) return 'singapore';
     if ((id >= 40 && id <= 54)) return 'srilanka';
+    if ((id >= 91 && id <= 100)) return 'andaman';
+    if ((id >= 101 && id <= 110)) return 'jaipur';
+    if ((id >= 111 && id <= 120)) return 'kerala';
+    if ((id >= 121 && id <= 130)) return 'kashmir';
     return 'uae';
   }, [category, pkg.id]);
 
@@ -63,7 +77,9 @@ export default function PackageCard({ pkg, onView, buttonLabel = 'View Package',
           className="w-full h-44 md:h-48 object-cover transition-transform duration-500 group-hover:scale-110"
         />
         {pkg.nights && (
-          <div className="absolute left-3 bottom-3 bg-darkBlue text-white text-xs font-semibold px-3 py-1.5 rounded-lg shadow-lg font-poppins backdrop-blur-sm bg-opacity-90">{pkg.nights}</div>
+          <div className="absolute left-3 bottom-3 bg-darkBlue text-white text-xs font-semibold px-3 py-1.5 rounded-lg shadow-lg font-poppins backdrop-blur-sm bg-opacity-90 whitespace-nowrap min-w-fit">
+            <span className="inline-block">{getDaysFromNights(pkg.nights)}</span>
+          </div>
         )}
       </div>
       <div className="p-4 flex flex-col flex-grow">

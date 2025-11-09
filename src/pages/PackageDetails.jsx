@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { packageDetails, uaePackages, baliPackages, thailandPackages, singaporePackages, srilankaPackages, vietnamPackages, laosPackages } from '../data/siteData';
+import { packageDetails, uaePackages, baliPackages, thailandPackages, singaporePackages, srilankaPackages, vietnamPackages, laosPackages, andamanPackages, jaipurPackages, keralaPackages, kashmirPackages } from '../data/siteData';
 import { slugify } from '../utils/slug';
 import PackageCard from '../components/PackageCard';
 
@@ -29,6 +29,10 @@ export default function PackageDetails() {
       ...srilankaPackages.map(p => ({...p, _cat: 'srilanka'})),
       ...vietnamPackages.map(p => ({...p, _cat: 'vietnam'})),
       ...laosPackages.map(p => ({...p, _cat: 'laos'})),
+      ...andamanPackages.map(p => ({...p, _cat: 'andaman'})),
+      ...jaipurPackages.map(p => ({...p, _cat: 'jaipur'})),
+      ...keralaPackages.map(p => ({...p, _cat: 'kerala'})),
+      ...kashmirPackages.map(p => ({...p, _cat: 'kashmir'})),
     ];
     return all.find(p => p.id === pkgId);
   }, [pkgId]);
@@ -52,6 +56,14 @@ export default function PackageDetails() {
       categoryPackages = vietnamPackages;
     } else if (listMeta._cat === 'laos') {
       categoryPackages = laosPackages;
+    } else if (listMeta._cat === 'andaman') {
+      categoryPackages = andamanPackages;
+    } else if (listMeta._cat === 'jaipur') {
+      categoryPackages = jaipurPackages;
+    } else if (listMeta._cat === 'kerala') {
+      categoryPackages = keralaPackages;
+    } else if (listMeta._cat === 'kashmir') {
+      categoryPackages = kashmirPackages;
     }
     
     // Filter out current package and limit to 3 packages
@@ -638,6 +650,162 @@ function getOverviewList(id, name){
 function getItinerary(id, destination){
   const city = destination.split(',')[0];
   const idNum = Number(id);
+  
+  // Andaman specific itinerary
+  if (idNum >= 91 && idNum <= 100) {
+    // 5N/6D packages (second row and others)
+    if (idNum >= 93 && idNum <= 96) {
+      return [
+        {
+          title: 'Day 1: Arrival at Port Blair',
+          paragraphs: [
+            'Welcome to Port Blair! Check in to your hotel and unwind. In the afternoon, head to Corbyn\'s Cove Beach for some sun and sea.',
+            'Later, experience the moving Sound & Light Show at the historic Cellular Jail.',
+            'Overnight stay in Port Blair.'
+          ]
+        },
+        {
+          title: 'Day 2: Port Blair ➜ Havelock Island',
+          paragraphs: [
+            'After breakfast, sail to Havelock Island by cruise. Known for its crystal-clear waters and vibrant marine life, this paradise is perfect for diving and snorkelling.',
+            'Check in and relax, then visit the scenic Kalapathar Beach.',
+            'Overnight in Havelock.'
+          ]
+        },
+        {
+          title: 'Day 3: Explore Havelock',
+          paragraphs: [
+            'Enjoy a relaxed breakfast before heading to the world-famous Radhanagar Beach (Beach No. 7) – rated one of Asia\'s best.',
+            'Spend the day soaking in the beauty, swimming, or just lazing by the shore.',
+            'Overnight in Havelock.'
+          ]
+        },
+        {
+          title: 'Day 4: Havelock ➜ Neil Island',
+          paragraphs: [
+            'After breakfast, visit Elephant Beach (or Lighthouse Beach, subject to weather) for snorkelling and water activities.',
+            'Later, transfer to Neil Island.',
+            'Overnight stay in Neil.'
+          ]
+        },
+        {
+          title: 'Day 5: Neil Island ➜ Port Blair',
+          paragraphs: [
+            'Visit Laxmanpur Beach, Bharatpur Beach, and the natural Howrah Bridge formation.',
+            'Enjoy the island\'s tranquil vibes before heading back to Port Blair in the evening.',
+            'Overnight stay in Port Blair.'
+          ]
+        },
+        {
+          title: 'Day 6: Departure',
+          paragraphs: [
+            'Transfer to the airport with unforgettable memories of the Andamans!'
+          ]
+        }
+      ];
+    }
+    // 6N/7D packages (third row)
+    else if (idNum >= 97 && idNum <= 99) {
+      return [
+        {
+          title: 'Day 1: Arrival at Port Blair',
+          paragraphs: [
+            'Arrive at Port Blair Airport and transfer to your hotel with assistance from our representative. After check-in, visit Corbyn\'s Cove Beach — a palm-fringed paradise ideal for swimming and sunbathing.',
+            'In the evening, witness the historic Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle.',
+            'Overnight stay at Port Blair.'
+          ]
+        },
+        {
+          title: 'Day 2: Ross Island & North Bay (Coral Island)',
+          paragraphs: [
+            'After breakfast, take a boat trip to explore the colonial ruins of Ross Island, followed by North Bay Island — famous for its vibrant coral reefs and underwater marine life.',
+            'Return to Port Blair for an overnight stay.'
+          ]
+        },
+        {
+          title: 'Day 3: Port Blair – Havelock Island',
+          paragraphs: [
+            'Post breakfast, board a cruise to Havelock Island, known for its serene beaches and crystal-clear waters ideal for snorkeling and diving.',
+            'On arrival, check in to your hotel and relax. Later, visit Kalapathar Beach for a peaceful sunset view.',
+            'Overnight at Havelock.'
+          ]
+        },
+        {
+          title: 'Day 4: Havelock – Radhanagar Beach',
+          paragraphs: [
+            'After breakfast, visit Radhanagar Beach (Beach No. 7), rated among Asia\'s best beaches for its powdery white sand and turquoise waters.',
+            'Spend the day relaxing or swimming.',
+            'Overnight at Havelock.'
+          ]
+        },
+        {
+          title: 'Day 5: Havelock – Neil Island',
+          paragraphs: [
+            'After breakfast, head to Elephant Beach or Light House (as per weather conditions) — great for snorkeling and water sports.',
+            'Later, proceed to Neil Island by ferry.',
+            'Overnight stay at Neil Island.'
+          ]
+        },
+        {
+          title: 'Day 6: Neil Island – Port Blair',
+          paragraphs: [
+            'After breakfast, explore Bharatpur Beach, Laxmanpur Beach, and the natural rock formation at Howrah Bridge.',
+            'Later, return to Port Blair by evening ferry.',
+            'Overnight stay at Port Blair.'
+          ]
+        },
+        {
+          title: 'Day 7: Departure',
+          paragraphs: [
+            'Transfer to the airport for your return flight with beautiful memories of the Andaman Islands.'
+          ]
+        }
+      ];
+    }
+    // 4N/5D packages (first row)
+    else {
+      return [
+        {
+          title: 'Day 1: Arrival at Port Blair',
+          paragraphs: [
+            'Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing.',
+            'In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle.',
+            'Overnight: Port Blair'
+          ]
+        },
+        {
+          title: 'Day 2: Port Blair → Havelock Island',
+          paragraphs: [
+            'After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life.',
+            'Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine.',
+            'Overnight: Havelock Island'
+          ]
+        },
+        {
+          title: 'Day 3: Havelock – Elephant Beach Excursion',
+          paragraphs: [
+            'Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis).',
+            'Return to the resort for a relaxed evening.',
+            'Overnight: Havelock Island'
+          ]
+        },
+        {
+          title: 'Day 4: Havelock → Port Blair + Shopping',
+          paragraphs: [
+            'After breakfast, board the morning cruise back to Port Blair.',
+            'Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure.',
+            'Overnight: Port Blair'
+          ]
+        },
+        {
+          title: 'Day 5: Departure',
+          paragraphs: [
+            'After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+          ]
+        }
+      ];
+    }
+  }
   
   // Laos specific itinerary
   if (idNum >= 70 && idNum <= 84) {

@@ -15,6 +15,10 @@ const SingaporePackages = lazy(() => import('./pages/SingaporePackages'));
 const SriLankaPackages = lazy(() => import('./pages/SriLankaPackages'));
 const VietnamPackages = lazy(() => import('./pages/VietnamPackages'));
 const LaosPackages = lazy(() => import('./pages/LaosPackages'));
+const AndamanPackages = lazy(() => import('./pages/AndamanPackages'));
+const JaipurPackages = lazy(() => import('./pages/JaipurPackages'));
+const KeralaPackages = lazy(() => import('./pages/KeralaPackages'));
+const KashmirPackages = lazy(() => import('./pages/KashmirPackages'));
 const PackageDetails = lazy(() => import('./pages/PackageDetails'));
 const PackageRedirect = lazy(() => import('./pages/PackageRedirect'));
 
@@ -53,6 +57,14 @@ function App() {
               <Route path="/vietnam-packages/:slug" element={<PackageDetails />} />
               <Route path="/laos-packages" element={<LaosPackages />} />
               <Route path="/laos-packages/:slug" element={<PackageDetails />} />
+              <Route path="/andaman-packages" element={<AndamanPackages />} />
+              <Route path="/andaman-packages/:slug" element={<PackageDetails />} />
+              <Route path="/jaipur-packages" element={<JaipurPackages />} />
+              <Route path="/jaipur-packages/:slug" element={<PackageDetails />} />
+              <Route path="/kerala-packages" element={<KeralaPackages />} />
+              <Route path="/kerala-packages/:slug" element={<PackageDetails />} />
+              <Route path="/kashmir-packages" element={<KashmirPackages />} />
+              <Route path="/kashmir-packages/:slug" element={<PackageDetails />} />
               {/* Backward compatibility: redirect old slug URLs to nested category path */}
               <Route path="/package/:slug" element={<PackageRedirect />} />
             </Routes>

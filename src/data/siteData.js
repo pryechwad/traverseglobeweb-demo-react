@@ -1,4 +1,5 @@
 // Centralized site data to mirror https://traverseglobe-demo.vercel.app/
+// Updated: Andaman packages with Alluring Andamans content - 2024-12-19
 
 export const banners = [
   'https://images.pexels.com/photos/1660603/pexels-photo-1660603.jpeg?auto=compress&cs=tinysrgb&w=1920&h=650&fit=crop', 
@@ -65,6 +66,38 @@ export const srilankaBanners = [
   'https://images.pexels.com/photos/1998435/pexels-photo-1998435.jpeg',
 ];
 
+export const andamanBanners = [
+  'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const jaipurBanners = [
+  'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1599661046827-dacde6976549?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const keralaBanners = [
+  'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=80',
+];
+
+export const kashmirBanners = [
+  'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=1920&q=80',
+  'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1920&q=80',
+];
+
 export const internationalDestinations = [
   { title: 'UAE', image: 'https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', link: '/uae-packages' },
   { title: 'Bali', image: 'https://images.pexels.com/photos/3067621/pexels-photo-3067621.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', link: '/bali-packages' },
@@ -76,10 +109,10 @@ export const internationalDestinations = [
 ];
 
 export const domesticDestinations = [
-  { title: 'Maldives', image: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80', link: '/destinations/maldives' },
-  { title: 'Kashmir', image: 'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?auto=format&fit=crop&w=800&q=80', link: '/destinations/kashmir' },
-  { title: 'Goa', image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80', link: '/destinations/goa' },
-  { title: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80', link: '/destinations/kerala' },
+  { title: 'Andaman', image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80', link: '/andaman-packages' },
+  { title: 'Jaipur', image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80', link: '/jaipur-packages' },
+  { title: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80', link: '/kerala-packages' },
+  { title: 'Kashmir', image: 'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?auto=format&fit=crop&w=800&q=80', link: '/kashmir-packages' },
 ];
 
 // UAE package listing data (mirrors UAEcard.html)
@@ -761,6 +794,342 @@ export const laosPackages = [
     strikePrice: 163999,
     price: 158999,
     image: 'https://images.pexels.com/photos/31418553/pexels-photo-31418553.jpeg',
+  },
+];
+
+// Andaman package listing data
+export const andamanPackages = [
+  {
+    id: 91,
+    title: '3-Star Alluring Andamans - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 32999,
+    price: 26999,
+    image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 92,
+    title: '4-Star Alluring Andamans - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 38999,
+    price: 31999,
+    image: 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 93,
+    title: '5-Star Andaman Chronicles - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 48999,
+    price: 41999,
+    image: 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 94,
+    title: '3-Star Andaman Chronicles - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 32999,
+    price: 28999,
+    image: 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 95,
+    title: '4-Star Andaman Chronicles - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 38999,
+    price: 34999,
+    image: 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 96,
+    title: '5-Star Andaman Chronicles - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 46999,
+    price: 42999,
+    image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 97,
+    title: '3-Star Andaman Delight - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 41999,
+    price: 35999,
+    image: 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 98,
+    title: '4-Star Andaman Delight - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 48999,
+    price: 41999,
+    image: 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 99,
+    title: '5-Star Andaman Delight - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 58999,
+    price: 51999,
+    image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 100,
+    title: 'Andaman Grand Tour - 7N/8D',
+    nights: '7N/8D',
+    strikePrice: 49999,
+    price: 44999,
+    image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
+  },
+];
+
+// Jaipur package listing data
+export const jaipurPackages = [
+  {
+    id: 101,
+    title: '3-Star Jaipur Heritage - 3N/4D',
+    nights: '3N/4D',
+    strikePrice: 18999,
+    price: 15999,
+    image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 102,
+    title: '4-Star Jaipur Heritage - 3N/4D',
+    nights: '3N/4D',
+    strikePrice: 24999,
+    price: 21999,
+    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 103,
+    title: '5-Star Jaipur Heritage - 3N/4D',
+    nights: '3N/4D',
+    strikePrice: 32999,
+    price: 28999,
+    image: 'https://images.unsplash.com/photo-1599661046827-dacde6976549?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 104,
+    title: '3-Star Jaipur Royal - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 22999,
+    price: 19999,
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 105,
+    title: '4-Star Jaipur Royal - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 28999,
+    price: 25999,
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 106,
+    title: '5-Star Jaipur Royal - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 36999,
+    price: 32999,
+    image: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 107,
+    title: '3-Star Jaipur Palace Tour - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 26999,
+    price: 23999,
+    image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 108,
+    title: '4-Star Jaipur Palace Tour - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 32999,
+    price: 29999,
+    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 109,
+    title: '5-Star Jaipur Palace Tour - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 42999,
+    price: 38999,
+    image: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 110,
+    title: 'Jaipur Golden Triangle - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 38999,
+    price: 34999,
+    image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=800&q=80',
+  },
+];
+
+// Kerala package listing data
+export const keralaPackages = [
+  {
+    id: 111,
+    title: '3-Star Kerala Backwaters - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 22999,
+    price: 19999,
+    image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 112,
+    title: '4-Star Kerala Backwaters - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 28999,
+    price: 25999,
+    image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 113,
+    title: '5-Star Kerala Backwaters - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 36999,
+    price: 32999,
+    image: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 114,
+    title: '3-Star Kerala Hill Stations - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 26999,
+    price: 23999,
+    image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 115,
+    title: '4-Star Kerala Hill Stations - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 32999,
+    price: 29999,
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 116,
+    title: '5-Star Kerala Hill Stations - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 42999,
+    price: 38999,
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 117,
+    title: '3-Star Kerala Ayurveda - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 32999,
+    price: 28999,
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 118,
+    title: '4-Star Kerala Ayurveda - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 38999,
+    price: 34999,
+    image: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 119,
+    title: '5-Star Kerala Ayurveda - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 48999,
+    price: 44999,
+    image: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 120,
+    title: 'Kerala Complete Tour - 7N/8D',
+    nights: '7N/8D',
+    strikePrice: 42999,
+    price: 38999,
+    image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80',
+  },
+];
+
+// Kashmir package listing data
+export const kashmirPackages = [
+  {
+    id: 121,
+    title: '3-Star Kashmir Paradise - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 26999,
+    price: 23999,
+    image: 'https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 122,
+    title: '4-Star Kashmir Paradise - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 32999,
+    price: 29999,
+    image: 'https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 123,
+    title: '5-Star Kashmir Paradise - 4N/5D',
+    nights: '4N/5D',
+    strikePrice: 42999,
+    price: 38999,
+    image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 124,
+    title: '3-Star Kashmir Valley - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 30999,
+    price: 27999,
+    image: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 125,
+    title: '4-Star Kashmir Valley - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 36999,
+    price: 33999,
+    image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 126,
+    title: '5-Star Kashmir Valley - 5N/6D',
+    nights: '5N/6D',
+    strikePrice: 46999,
+    price: 42999,
+    image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 127,
+    title: '3-Star Kashmir Honeymoon - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 34999,
+    price: 31999,
+    image: 'https://images.unsplash.com/photo-1559804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 128,
+    title: '4-Star Kashmir Honeymoon - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 40999,
+    price: 37999,
+    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 129,
+    title: '5-Star Kashmir Honeymoon - 6N/7D',
+    nights: '6N/7D',
+    strikePrice: 52999,
+    price: 48999,
+    image: 'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 130,
+    title: 'Kashmir Complete Tour - 7N/8D',
+    nights: '7N/8D',
+    strikePrice: 46999,
+    price: 42999,
+    image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80',
   },
 ];
 
@@ -1824,6 +2193,162 @@ export const packageDetails = {
       'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1200',
     ],
   },
+  // Andaman Package Details (91-100)
+  91: {
+    name: '3-Star Alluring Andamans - 4N/5D',
+    priceHTML: '&#8377;26,999',
+    destination: 'Port Blair, Havelock - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing. In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle. Overnight: Port Blair',
+      'Day 2': 'Port Blair → Havelock Island: After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life. Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine. Overnight: Havelock Island',
+      'Day 3': 'Havelock – Elephant Beach Excursion: Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis). Return to the resort for a relaxed evening. Overnight: Havelock Island',
+      'Day 4': 'Havelock → Port Blair + Shopping: After breakfast, board the morning cruise back to Port Blair. Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure. Overnight: Port Blair',
+      'Day 5': 'Departure: After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+    },
+    images: ['https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  92: {
+    name: '4-Star Alluring Andamans - 4N/5D',
+    priceHTML: '&#8377;31,999',
+    destination: 'Port Blair, Havelock - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing. In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle. Overnight: Port Blair',
+      'Day 2': 'Port Blair → Havelock Island: After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life. Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine. Overnight: Havelock Island',
+      'Day 3': 'Havelock – Elephant Beach Excursion: Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis). Return to the resort for a relaxed evening. Overnight: Havelock Island',
+      'Day 4': 'Havelock → Port Blair + Shopping: After breakfast, board the morning cruise back to Port Blair. Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure. Overnight: Port Blair',
+      'Day 5': 'Departure: After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+    },
+    images: ['https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  93: {
+    name: '5-Star Andaman Chronicles - 5N/6D',
+    priceHTML: '&#8377;41,999',
+    destination: 'Port Blair, Havelock, Neil Island - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Welcome to Port Blair! Check in to your hotel and unwind. In the afternoon, head to Corbyn\'s Cove Beach for some sun and sea. Later, experience the moving Sound & Light Show at the historic Cellular Jail. Overnight stay in Port Blair.',
+      'Day 2': 'Port Blair ➜ Havelock Island: After breakfast, sail to Havelock Island by cruise. Known for its crystal-clear waters and vibrant marine life, this paradise is perfect for diving and snorkelling. Check in and relax, then visit the scenic Kalapathar Beach. Overnight in Havelock.',
+      'Day 3': 'Explore Havelock: Enjoy a relaxed breakfast before heading to the world-famous Radhanagar Beach (Beach No. 7) – rated one of Asia\'s best. Spend the day soaking in the beauty, swimming, or just lazing by the shore. Overnight in Havelock.',
+      'Day 4': 'Havelock ➜ Neil Island: After breakfast, visit Elephant Beach (or Lighthouse Beach, subject to weather) for snorkelling and water activities. Later, transfer to Neil Island. Overnight stay in Neil.',
+      'Day 5': 'Neil Island ➜ Port Blair: Visit Laxmanpur Beach, Bharatpur Beach, and the natural Howrah Bridge formation. Enjoy the island\'s tranquil vibes before heading back to Port Blair in the evening. Overnight stay in Port Blair.',
+      'Day 6': 'Departure: Transfer to the airport with unforgettable memories of the Andamans!'
+    },
+    images: ['https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800', 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  94: {
+    name: '3-Star Andaman Chronicles - 5N/6D',
+    priceHTML: '&#8377;28,999',
+    destination: 'Port Blair, Havelock, Neil Island - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Welcome to Port Blair! Check in to your hotel and unwind. In the afternoon, head to Corbyn\'s Cove Beach for some sun and sea. Later, experience the moving Sound & Light Show at the historic Cellular Jail. Overnight stay in Port Blair.',
+      'Day 2': 'Port Blair ➜ Havelock Island: After breakfast, sail to Havelock Island by cruise. Known for its crystal-clear waters and vibrant marine life, this paradise is perfect for diving and snorkelling. Check in and relax, then visit the scenic Kalapathar Beach. Overnight in Havelock.',
+      'Day 3': 'Explore Havelock: Enjoy a relaxed breakfast before heading to the world-famous Radhanagar Beach (Beach No. 7) – rated one of Asia\'s best. Spend the day soaking in the beauty, swimming, or just lazing by the shore. Overnight in Havelock.',
+      'Day 4': 'Havelock ➜ Neil Island: After breakfast, visit Elephant Beach (or Lighthouse Beach, subject to weather) for snorkelling and water activities. Later, transfer to Neil Island. Overnight stay in Neil.',
+      'Day 5': 'Neil Island ➜ Port Blair: Visit Laxmanpur Beach, Bharatpur Beach, and the natural Howrah Bridge formation. Enjoy the island\'s tranquil vibes before heading back to Port Blair in the evening. Overnight stay in Port Blair.',
+      'Day 6': 'Departure: Transfer to the airport with unforgettable memories of the Andamans!'
+    },
+    images: ['https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  95: {
+    name: '4-Star Andaman Chronicles - 5N/6D',
+    priceHTML: '&#8377;34,999',
+    destination: 'Port Blair, Havelock, Neil Island - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Welcome to Port Blair! Check in to your hotel and unwind. In the afternoon, head to Corbyn\'s Cove Beach for some sun and sea. Later, experience the moving Sound & Light Show at the historic Cellular Jail. Overnight stay in Port Blair.',
+      'Day 2': 'Port Blair ➜ Havelock Island: After breakfast, sail to Havelock Island by cruise. Known for its crystal-clear waters and vibrant marine life, this paradise is perfect for diving and snorkelling. Check in and relax, then visit the scenic Kalapathar Beach. Overnight in Havelock.',
+      'Day 3': 'Explore Havelock: Enjoy a relaxed breakfast before heading to the world-famous Radhanagar Beach (Beach No. 7) – rated one of Asia\'s best. Spend the day soaking in the beauty, swimming, or just lazing by the shore. Overnight in Havelock.',
+      'Day 4': 'Havelock ➜ Neil Island: After breakfast, visit Elephant Beach (or Lighthouse Beach, subject to weather) for snorkelling and water activities. Later, transfer to Neil Island. Overnight stay in Neil.',
+      'Day 5': 'Neil Island ➜ Port Blair: Visit Laxmanpur Beach, Bharatpur Beach, and the natural Howrah Bridge formation. Enjoy the island\'s tranquil vibes before heading back to Port Blair in the evening. Overnight stay in Port Blair.',
+      'Day 6': 'Departure: Transfer to the airport with unforgettable memories of the Andamans!'
+    },
+    images: ['https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  96: {
+    name: '5-Star Andaman Chronicles - 5N/6D',
+    priceHTML: '&#8377;42,999',
+    destination: 'Port Blair, Havelock, Neil Island - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Welcome to Port Blair! Check in to your hotel and unwind. In the afternoon, head to Corbyn\'s Cove Beach for some sun and sea. Later, experience the moving Sound & Light Show at the historic Cellular Jail. Overnight stay in Port Blair.',
+      'Day 2': 'Port Blair ➜ Havelock Island: After breakfast, sail to Havelock Island by cruise. Known for its crystal-clear waters and vibrant marine life, this paradise is perfect for diving and snorkelling. Check in and relax, then visit the scenic Kalapathar Beach. Overnight in Havelock.',
+      'Day 3': 'Explore Havelock: Enjoy a relaxed breakfast before heading to the world-famous Radhanagar Beach (Beach No. 7) – rated one of Asia\'s best. Spend the day soaking in the beauty, swimming, or just lazing by the shore. Overnight in Havelock.',
+      'Day 4': 'Havelock ➜ Neil Island: After breakfast, visit Elephant Beach (or Lighthouse Beach, subject to weather) for snorkelling and water activities. Later, transfer to Neil Island. Overnight stay in Neil.',
+      'Day 5': 'Neil Island ➜ Port Blair: Visit Laxmanpur Beach, Bharatpur Beach, and the natural Howrah Bridge formation. Enjoy the island\'s tranquil vibes before heading back to Port Blair in the evening. Overnight stay in Port Blair.',
+      'Day 6': 'Departure: Transfer to the airport with unforgettable memories of the Andamans!'
+    },
+    images: ['https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  97: {
+    name: 'Alluring Andamans - 6N/7D',
+    priceHTML: '&#8377;35,999',
+    destination: 'Port Blair, Havelock - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing. In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle. Overnight: Port Blair',
+      'Day 2': 'Port Blair → Havelock Island: After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life. Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine. Overnight: Havelock Island',
+      'Day 3': 'Havelock – Elephant Beach Excursion: Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis). Return to the resort for a relaxed evening. Overnight: Havelock Island',
+      'Day 4': 'Havelock → Port Blair + Shopping: After breakfast, board the morning cruise back to Port Blair. Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure. Overnight: Port Blair',
+      'Day 5': 'Departure: After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+    },
+    images: ['https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  98: {
+    name: 'Alluring Andamans - 6N/7D',
+    priceHTML: '&#8377;41,999',
+    destination: 'Port Blair, Havelock - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing. In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle. Overnight: Port Blair',
+      'Day 2': 'Port Blair → Havelock Island: After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life. Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine. Overnight: Havelock Island',
+      'Day 3': 'Havelock – Elephant Beach Excursion: Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis). Return to the resort for a relaxed evening. Overnight: Havelock Island',
+      'Day 4': 'Havelock → Port Blair + Shopping: After breakfast, board the morning cruise back to Port Blair. Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure. Overnight: Port Blair',
+      'Day 5': 'Departure: After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+    },
+    images: ['https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  99: {
+    name: 'Alluring Andamans - 6N/7D',
+    priceHTML: '&#8377;51,999',
+    destination: 'Port Blair, Havelock - Andaman',
+    itinerary: {
+      'Day 1': 'Arrival at Port Blair: Arrive at Port Blair Airport and check in at your hotel. Later, unwind at Corbyn\'s Cove Beach, perfect for swimming and sunbathing. In the evening, witness the Sound & Light Show at Cellular Jail, narrating India\'s freedom struggle. Overnight: Port Blair',
+      'Day 2': 'Port Blair → Havelock Island: After breakfast, transfer to the jetty and cruise to Havelock Island — a paradise known for crystal-clear waters and vibrant marine life. Check in at your resort and later visit the world-famous Radhanagar Beach (Beach No. 7), crowned as Asia\'s Best Beach by Time Magazine. Overnight: Havelock Island',
+      'Day 3': 'Havelock – Elephant Beach Excursion: Post breakfast, head for a thrilling speedboat trip to Elephant Beach, a hotspot for snorkeling, jet skiing, and underwater sea walks (activities on direct payment basis). Return to the resort for a relaxed evening. Overnight: Havelock Island',
+      'Day 4': 'Havelock → Port Blair + Shopping: After breakfast, board the morning cruise back to Port Blair. Spend the rest of the day shopping for souvenirs or exploring the local markets at leisure. Overnight: Port Blair',
+      'Day 5': 'Departure: After breakfast, transfer to the airport for your flight home, carrying unforgettable memories of your Andaman adventure.'
+    },
+    images: ['https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800']
+  },
+  100: { name: 'Andaman Grand Tour - 7N/8D', priceHTML: '&#8377;44,999', destination: 'Port Blair, Andaman', images: ['https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80'] },
+  // Jaipur Package Details (101-110)
+  101: { name: '3-Star Jaipur Heritage - 3N/4D', priceHTML: '&#8377;15,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80'] },
+  102: { name: '4-Star Jaipur Heritage - 3N/4D', priceHTML: '&#8377;21,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80'] },
+  103: { name: '5-Star Jaipur Heritage - 3N/4D', priceHTML: '&#8377;28,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1599661046827-dacde6976549?auto=format&fit=crop&w=800&q=80'] },
+  104: { name: '3-Star Jaipur Royal - 4N/5D', priceHTML: '&#8377;19,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80'] },
+  105: { name: '4-Star Jaipur Royal - 4N/5D', priceHTML: '&#8377;25,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80'] },
+  106: { name: '5-Star Jaipur Royal - 4N/5D', priceHTML: '&#8377;32,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80'] },
+  107: { name: '3-Star Jaipur Palace Tour - 5N/6D', priceHTML: '&#8377;23,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80'] },
+  108: { name: '4-Star Jaipur Palace Tour - 5N/6D', priceHTML: '&#8377;29,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80'] },
+  109: { name: '5-Star Jaipur Palace Tour - 5N/6D', priceHTML: '&#8377;38,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=80'] },
+  110: { name: 'Jaipur Golden Triangle - 6N/7D', priceHTML: '&#8377;34,999', destination: 'Jaipur, Rajasthan', images: ['https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=800&q=80'] },
+  // Kerala Package Details (111-120)
+  111: { name: '3-Star Kerala Backwaters - 4N/5D', priceHTML: '&#8377;19,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80'] },
+  112: { name: '4-Star Kerala Backwaters - 4N/5D', priceHTML: '&#8377;25,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80'] },
+  113: { name: '5-Star Kerala Backwaters - 4N/5D', priceHTML: '&#8377;32,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80'] },
+  114: { name: '3-Star Kerala Hill Stations - 5N/6D', priceHTML: '&#8377;23,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=800&q=80'] },
+  115: { name: '4-Star Kerala Hill Stations - 5N/6D', priceHTML: '&#8377;29,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80'] },
+  116: { name: '5-Star Kerala Hill Stations - 5N/6D', priceHTML: '&#8377;38,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80'] },
+  117: { name: '3-Star Kerala Ayurveda - 6N/7D', priceHTML: '&#8377;28,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80'] },
+  118: { name: '4-Star Kerala Ayurveda - 6N/7D', priceHTML: '&#8377;34,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80'] },
+  119: { name: '5-Star Kerala Ayurveda - 6N/7D', priceHTML: '&#8377;44,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80'] },
+  120: { name: 'Kerala Complete Tour - 7N/8D', priceHTML: '&#8377;38,999', destination: 'Kochi, Kerala', images: ['https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80'] },
+  // Kashmir Package Details (121-130)
+  121: { name: '3-Star Kashmir Paradise - 4N/5D', priceHTML: '&#8377;23,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1605649487212-47b9f5c1e813?auto=format&fit=crop&w=800&q=80'] },
+  122: { name: '4-Star Kashmir Paradise - 4N/5D', priceHTML: '&#8377;29,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1580674684081-7617fbf4d82d?auto=format&fit=crop&w=800&q=80'] },
+  123: { name: '5-Star Kashmir Paradise - 4N/5D', priceHTML: '&#8377;38,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=800&q=80'] },
+  124: { name: '3-Star Kashmir Valley - 5N/6D', priceHTML: '&#8377;27,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&w=800&q=80'] },
+  125: { name: '4-Star Kashmir Valley - 5N/6D', priceHTML: '&#8377;33,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80'] },
+  126: { name: '5-Star Kashmir Valley - 5N/6D', priceHTML: '&#8377;42,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80'] },
+  127: { name: '3-Star Kashmir Honeymoon - 6N/7D', priceHTML: '&#8377;31,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1559804506-669a67965ba0?auto=format&fit=crop&w=800&q=80'] },
+  128: { name: '4-Star Kashmir Honeymoon - 6N/7D', priceHTML: '&#8377;37,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80'] },
+  129: { name: '5-Star Kashmir Honeymoon - 6N/7D', priceHTML: '&#8377;48,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=800&q=80'] },
+  130: { name: 'Kashmir Complete Tour - 7N/8D', priceHTML: '&#8377;42,999', destination: 'Srinagar, Kashmir', images: ['https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80'] },
 };
 
 export const services = [
